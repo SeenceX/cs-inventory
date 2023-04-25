@@ -1,1 +1,2 @@
-# cs-inventory readme
+# cs-inventory.
+# The description will be later
