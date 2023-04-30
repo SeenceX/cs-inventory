@@ -46,6 +46,7 @@ header nav .nav-container .nav-items .brand {
   text-decoration: none;
   color: #FFFFFF;
   font-weight: 600;
+  font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.02em;
   margin-right: 32px;
@@ -68,7 +69,7 @@ header nav .nav-container .nav-items .nav-ul .nav-li {
 }
 header nav .nav-container .nav-items .nav-ul .nav-li .nav-link {
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
