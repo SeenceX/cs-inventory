@@ -5,9 +5,9 @@
               <div class="nav-items">
                   <a href="#" class="brand">CS<i>Inventory</i></a>
                   <ul class="nav-ul">
-                      <li class="nav-li"><a href="#" class="nav-link active">Главная</a></li>
-                      <li class="nav-li"><a href="#" class="nav-link">Инвентарь</a></li>
-                      <li class="nav-li"><a href="#" class="nav-link">Библиотека</a></li>
+                      <li class="nav-li"><router-link to="/" class="nav-link active">Главная</router-link></li>
+                      <li class="nav-li"><router-link to="/inventory" class="nav-link">Инвентарь</router-link></li>
+                      <li class="nav-li"><router-link to="#" class="nav-link">Библиотека</router-link></li>
                   </ul>
               </div>
               <div class="nav-controllers">

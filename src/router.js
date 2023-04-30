@@ -1,11 +1,13 @@
 import {createRouter, createWebHistory} from "vue-router";
 // import TheComponentOne from "./components/TheComponentOne.vue"
-import LoginPage from "@/components/LoginPage.vue";
-import HelloWorld from "@/components/HelloWorld.vue";
+import HomePage from "@/components/HomePage.vue";
+import InventoryPage from "@/components/InventoryPage.vue";
+import PageNotFound from "@/components/PageNotFound.vue";
 export default createRouter({
     history: createWebHistory(),
     routes: [
-        {path: '/', component: LoginPage},
-        {path: '/hw', component: HelloWorld},
+        {path: '/', component: HomePage},
+        {path: '/inventory', component: InventoryPage},
+        {path: '/:pathMathc(.*)*', component: PageNotFound}
     ]
 })
