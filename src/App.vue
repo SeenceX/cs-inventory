@@ -1,6 +1,7 @@
 <template>
     <navbar-menu></navbar-menu>
     <router-view></router-view>
+
 </template>
 
 <script>

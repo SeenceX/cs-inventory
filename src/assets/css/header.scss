@@ -1,17 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
-* {
-  font-family: 'Open sans', sans-serif;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 header {
   display: flex;
   justify-content: center;
   height: 88px;
   width: 100%;
+  margin-bottom: 56px;
+
 
   nav {
     display: flex;
@@ -19,12 +14,13 @@ header {
     width: inherit;
     justify-content: inherit;
 
+
     .nav-container {
       display: inherit;
       justify-content: space-between;
       width: inherit;
       max-width: 1280px;
-
+      padding: 32px 76px;
 
       .nav-items {
         display: flex;
