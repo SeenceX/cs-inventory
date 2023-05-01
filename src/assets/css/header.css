@@ -1,12 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
-* {
-  font-family: "Open sans", sans-serif;
-  padding: 0;
-  margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -16,6 +8,7 @@ header {
           justify-content: center;
   height: 88px;
   width: 100%;
+  margin-bottom: 56px;
 }
 header nav {
   display: -webkit-box;
@@ -36,6 +29,7 @@ header nav .nav-container {
           justify-content: space-between;
   width: inherit;
   max-width: 1280px;
+  padding: 32px 76px;
 }
 header nav .nav-container .nav-items {
   display: -webkit-box;
