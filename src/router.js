@@ -8,6 +8,6 @@ export default createRouter({
     routes: [
         {path: '/', component: HomePage},
         {path: '/inventory', component: InventoryPage},
-        {path: '/:pathMathc(.*)*', component: PageNotFound}
+        {path: '/:pathMatch(.*)*', component: PageNotFound}
     ]
 })
