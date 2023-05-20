@@ -43,6 +43,14 @@ h2, p, input, div {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-bottom: 80px;
+  position: relative;
+}
+.containter .title .imgs #guns {
+  left: -40%;
+  top: -80%;
+}
+.containter .title .imgs img {
+  position: absolute;
 }
 .containter .title .site-description {
   display: inherit;

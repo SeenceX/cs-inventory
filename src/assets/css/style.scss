@@ -10,7 +10,7 @@ body {
 
 }
 
-#app{
+#app {
   /*background-image: url("../img/background.svg");
   background-repeat: no-repeat;
   background-position: 55% 40%;
@@ -35,6 +35,23 @@ h2, p, input, div {
     display: inherit;
     flex-direction: column;
     margin-bottom: 80px;
+    position: relative;
+
+    .imgs {
+      #elipse {
+      }
+
+      #guns {
+
+        left: -40%;
+        top: -80%;
+      }
+
+      img {
+        position: absolute;
+      }
+    }
+
     .site-description {
       display: inherit;
       flex-direction: column;
@@ -80,42 +97,49 @@ h2, p, input, div {
         box-shadow: 0px 0px 30px rgba(93, 134, 239, 0.2), 0px 0px 30px rgba(93, 134, 239, 0.2);
         border: none;
         border-radius: 4px;
-        &:hover{
+
+        &:hover {
           cursor: pointer;
         }
       }
     }
   }
 
-  .images{
+  .images {
     position: fixed;
     top: 27.94px;
     left: 50%;
-    img{
+
+    img {
       position: absolute;
     }
-    #elipse{
+
+    #elipse {
       left: 0;
     }
-    #m4{
+
+    #m4 {
       top: 9.36px;
       left: 15.6px;
     }
-    #de{
+
+    #de {
       top: 217.86px;
       left: 158px;
     }
   }
 
-  .info{
+  .info {
     display: inherit;
     flex-direction: column;
-    .steps{
+
+    .steps {
       display: inherit;
       justify-content: space-between;
       align-items: center;
       margin-bottom: 16px;
-      .step{
+
+      .step {
         width: 360px;
         max-width: 360px;
         padding: 16px 24px;
@@ -124,12 +148,14 @@ h2, p, input, div {
         border-radius: 8px;
       }
     }
-    .numbers{
+
+    .numbers {
       display: inherit;
       align-items: center;
       justify-content: space-between;
       padding: 0 174px;
-      .number{
+
+      .number {
         display: inherit;
         justify-content: center;
         align-items: center;
@@ -138,7 +164,8 @@ h2, p, input, div {
         background: #4972DB;
         border-radius: 32px;;
       }
-      .line{
+
+      .line {
         height: 4px;
         width: 100%;
         max-width: 326px;
