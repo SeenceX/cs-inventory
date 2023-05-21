@@ -5,6 +5,11 @@
                 <h2>Будь в курсе цен<br>с CS<i>Inventory</i></h2>
                 <p>Отслеживайте изменение цен на предметы в Counter-Strike<br>и управляйте своим инвентарем максимально эффективно.</p>
             </div>
+            <!--<div class="imgs">
+                <img id="elipse" src="../assets/img/gr-elipse.svg" alt="">
+                <img id="guns" src="../assets/img/guns.svg" alt="">
+            </div>-->
+
             <form action="" class="url-form">
                 <input type="text" name="steam-url" class="url-input" id="" placeholder="Steam URL">
                 <input type="submit" class="load-input" value="Загрузить инвентарь">

@@ -5,8 +5,8 @@
               <div class="nav-items">
                   <a href="#" class="brand">CS<i>Inventory</i></a>
                   <ul class="nav-ul">
-                      <li class="nav-li"><router-link to="/" class="nav-link active">Главная</router-link></li>
-                      <li class="nav-li"><router-link to="/inventory" class="nav-link">Инвентарь</router-link></li>
+                      <li class="nav-li"><router-link :to="{path: '/'}" class="nav-link" :class="{ 'active': $route.path === '/' }">Главная</router-link></li>
+                      <li class="nav-li"><router-link :to="{path: '/inventory'}" class="nav-link" :class="{ 'active': $route.path === '/inventory' }">Инвентарь</router-link></li>
                       <li class="nav-li"><router-link to="#" class="nav-link">Библиотека</router-link></li>
                   </ul>
               </div>
