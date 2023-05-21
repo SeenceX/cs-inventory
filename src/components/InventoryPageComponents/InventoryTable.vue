@@ -1,12 +1,12 @@
 <template>
     <table class="inventory">
         <tr class="table-head">
-            <th></th>
-            <th>Название</th>
-            <th>Количество</th>
-            <th>Цена покупки</th>
-            <th>Текущая цена</th>
-            <th>Прибыль</th>
+            <th id="image"></th>
+            <th id="name">Название</th>
+            <th id="count">Количество</th>
+            <th id="init-price">Цена покупки</th>
+            <th id="current-price">Текущая цена</th>
+            <th id="i-profit">Прибыль</th>
         </tr>
 
         <tbody>

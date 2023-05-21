@@ -7,7 +7,8 @@
         <td id="item-count">{{item.itemCount}}</td>
         <td id="init-price">{{item.itemInitPrice}}</td>
         <td id="current-price">{{item.itemCurrentPrice}}</td>
-        <td id="profit">{{ getItemProfit }}</td>
+        <td v-if="parseInt(getItemProfit) >= 0" id="profit">{{ getItemProfit }}</td>
+        <td v-else id="loss">{{ getItemProfit }}</td>
     </tr>
 
 </template>
